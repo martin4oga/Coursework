@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MPD XML Martin Abadzhiev S1518532 -->
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#C0C0C0">
+    <TextView
+        android:id="@+id/studentname"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="Martin Abadzhiev S1518532"
+        />
+
+        <TextView
+            android:id="@+id/salutation"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="@string/welcome_to_mobile_platform_development"
+            />
+         <TextView
+             android:id="@+id/acknowledgement"
+             android:gravity="center"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:textSize="20sp"
+             android:textColor="#000000"
+             android:text="@string/traffic_scotland_road_data"
+              />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+             <Button
+                 android:id="@+id/startButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="#4CC417"
+                 android:layout_marginRight="3sp"
+                 android:text="@string/press_to_get_data" />
+
+             <Button
+                 android:id="@+id/button2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="#4CC417"
+                 android:layout_marginRight="3sp"
+                 android:text="@string/press_to_get_data2" />
+             <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#4CC417"
+                android:text="@string/press_to_get_data3" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:text="Search for road or date:"
+            />
+        <EditText
+            android:id="@+id/lengthEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/rawDataDisplay"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#0020C2"
+            android:text="@string/raw_data_is_displayed_here"
+            />
+        </ScrollView>
+    </LinearLayout>

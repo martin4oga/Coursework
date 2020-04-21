@@ -1,0 +1,10 @@
+<!-- MPD XML Martin Abadzhiev S1518532 -->
+<resources>
+    <string name="app_name">Coursework</string>
+    <string name="welcome_to_mobile_platform_development">Mobile Platform Development</string>
+    <string name="press_to_get_data">Roadworks</string>
+    <string name="press_to_get_data2">Planned Roadworks</string>
+    <string name="press_to_get_data3">Current Incidents</string>
+    <string name="traffic_scotland_road_data">Traffic Scotland Road Data</string>
+    <string name="raw_data_is_displayed_here">Data is Displayed here</string>
+</resources>
